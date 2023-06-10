@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "mpm i"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "dotenv": "^16.0.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.4",
+    "netlify-lambda": "^2.0.16",
+    "react-scripts": "^5.0.1",
+    "serverless-http": "^3.2.0",
     "validator": "^13.9.0"
   },
   "devDependencies": {
